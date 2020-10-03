@@ -1,3 +1,7 @@
+```diff
+$ text in white
+
+```
 
 # **SSH Login Credentials (Flags)**
 
