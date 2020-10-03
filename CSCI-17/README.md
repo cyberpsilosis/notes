@@ -1,5 +1,5 @@
-# CSCI-17
+## CSCI-17
 
-![](../images/csci-17.png?raw=true)
+![](../images/csci-17.png)
 
 All Things Hacking!
