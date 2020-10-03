@@ -4,5 +4,5 @@
 
 Welcome! Here's where all of my notes will reside as I attempt to become somewhat organized.
 
-- [Security+](./CSCI-17/README.md)
+- [Security+](./CSCI-17/README.md)  
 - [A+](./CSCI-49/README.md)
