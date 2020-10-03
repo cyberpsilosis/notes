@@ -1,8 +1,12 @@
 
---------------------------------------------------------------
-## SSH Login Credentials (Flags) for OTW - Bandit - War Games
---------------------------------------------------------------
-host:
+
+## SSH Login Credentials (Flags) for OTW Bandit-Series
+
+host
+domain: bandit.labs.overthewire.org
+port: 2220
+
+
 # level 0
 ///
 username: bandit0
