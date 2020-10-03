@@ -2,7 +2,7 @@
 # **SSH Login Credentials (Flags)**
 
 ## **Host**
-**Domain:**<p>bandit.labs.overthewire.org</p>
+**Domain:** bandit.labs.overthewire.org
 **Port:** 2220
 
 ## **Level 0**
