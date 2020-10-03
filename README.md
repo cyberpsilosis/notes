@@ -4,5 +4,5 @@
 
 Welcome! Here's where all of my notes will reside as I attempt to become somewhat organized.
 
-- [Security+](./CSCI-17)  
+- [Security+](./CSCI-17)
 - [A+](./CSCI-49)
