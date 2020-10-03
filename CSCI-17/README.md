@@ -4,4 +4,4 @@
 
 All Things Hacking!
 
-- [Bandit-Creds.txt](./bandit-series/ssh-credentials.md)
+- [Bandit-Creds.txt](/bandit-series/ssh-credentials.md)
