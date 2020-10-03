@@ -49,6 +49,26 @@ username: bandit6
 password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ///
 
+**Properties:**
+    human-readable
+    1033 bytes in size
+    not executable
+
+**Command Used:**
+ Filter your search results by size. If you have lots of files with similar names, but know the size you are looking for, you can filter our results by size.
+
+find / -size +50M -iname "filename"
+
+    This will return results that are 50 megabytes or larger.
+    
+    You can use + or - to search for greater or lesser sizes. Omitting the + or - will search for files exactly the specified size.
+
+    You can filter by bytes (c), kilobytes (k), megabytes (M), gigabytes (G), or 512-byte blocks (b). Note that the size flag is case-sensitive.
+
+
+
+///
+
 # level 7
 ///
 username: bandit7
