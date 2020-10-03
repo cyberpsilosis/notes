@@ -1,7 +1,5 @@
 # CSCI-17
 
-![](/home/cyberpsilosis/notes/images/vscodium-note-taking-590x380.png)
-
-![](/images/vscodium-note-taking-590x380.png)
+![](/home/cyberpsilosis/notes/images/CSCI-17.png)
 
 All Things Hacking!
