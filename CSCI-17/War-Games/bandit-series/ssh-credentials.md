@@ -40,7 +40,7 @@ Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 **Commands Used:** ls, cd, find
 
-    $ find / -size +50M -iname "filename"
+    ~$ find / -size +50M -iname "filename"
 
 - Filter by size. 
 - This will return results that are 50 megabytes or larger.
@@ -50,7 +50,18 @@ Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 ## **Level 7**
 Username: bandit7<br>
-Password: 
+Password: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+**Flag Properties:**
+- owned by user bandit7
+- owned by group bandit6
+- 33 bytes in size
+
+**Commands Used:** man find grep cat
+
+    ~$ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission
+
+- Use man to learn the command options
 
 ## **Level 8**
 Username: bandit8<br>
