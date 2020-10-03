@@ -48,8 +48,8 @@ Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 - not executable
 
 **Command Used:** find
- 
-    find / -size +50M -iname "filename"
+
+    $ find / -size +50M -iname "filename"
 
 - Filter by size. 
 - This will return results that are 50 megabytes or larger.
@@ -59,41 +59,41 @@ Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
 ## **Level 7**
 
-Username: bandit7
+Username: bandit7<br>
 Password: 
 
 
 ## **Level 8**
 
-Username: bandit8
+Username: bandit8<br>
 Password: 
 
 
 ## **Level 9**
 
-Username: bandit9
+Username: bandit9<br>
 Password: 
 
 
 ## **Level 10**
 
-Username: bandit10
+Username: bandit10<br>
 Password: 
 
 
 ## **Level 11**
 
-Username: bandit11
+Username: bandit11<br>
 Password: 
 
 
 ## **Level 12**
 
-Username: bandit12
+Username: bandit12<br>
 Password: 
 
 
 # **Level 13**
 
-Username: bandit13
+Username: bandit13<br>
 Password: 
