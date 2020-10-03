@@ -40,13 +40,13 @@ password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 # level 5
 ///
 username: bandit5
-password: 
+password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 ///
 
 # level 6
 ///
 username: bandit6
-password: 
+password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 ///
 
 # level 7
