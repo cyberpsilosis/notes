@@ -1,5 +1,5 @@
 # CSCI-17
 
-![](/home/cyberpsilosis/notes/images/csci-17.png)
+![](../images/csci-17.png?raw=true)
 
 All Things Hacking!
