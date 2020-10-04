@@ -9,25 +9,37 @@
 Username: bandit0<br>
 Password: bandit0
 
+**Commands Used:** ssh, ls, cat
+
 ## **Level 1**
 Username: bandit1<br>
 Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
+**Commands Used:** ssh, ls, cd, cat
 
 ## **Level 2**
 Username: bandit2<br>
 Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
+**Commands Used:** ssh, ls, cd, cat
+
 ## **Level 3**
 Username: bandit3<br>
 Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+**Commands Used:** ssh, ls, cd, cat
 
 ## **Level 4**
 Username: bandit4<br>
 Password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
+**Commands Used:** ssh, ls, cd, cat
+
 ## **Level 5** 
 Username: bandit5<br>
 Password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+**Commands Used:** ssh, ls, cd, cat
 
 ## **Level 6** 
 Username: bandit6<br>
@@ -71,7 +83,7 @@ Password:
 Username: bandit9<br>
 Password: 
 
-## **Level 10*kk
+## **Level 10*
 Username: bandit10<br>
 Password: 
 
