@@ -12,3 +12,6 @@
 ```
 ~$ service denyhosts status
 ```
+- Based on the denyhosts.conf file, check to see where it places denied hosts.
+```
+~$ sudo grep HOSTS_DENY etc/denyhosts.conf | grep -v "#"
