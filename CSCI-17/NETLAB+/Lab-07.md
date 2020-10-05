@@ -4,7 +4,7 @@
 
 ### **Demostrate Ncrack Against denyhosts**
 
-**From Target Machine**
+**From Target's Machine**
 - Open Terminal
 - Verify that the SSH service is running
 ```
@@ -18,31 +18,31 @@
 ```
 ~$ sudo grep HOSTS_DENY /etc/denyhosts.conf | grep -v "#"
 ```
-**From Attacking Machine**
+**From Threat Actor's Machine**
 - Open Terminal
 - Test SSH connection to the target system
 ```
 ~$ ssh name@ipaddress "uptime"
 ```
-**From Target Machine**
+**From Target's Machine**
 - Open Terminal
-- Grep the log entry recorded from the SSH connection that was initiated by the attacker.
+- Grep the log entry recorded from the SSH connection that was initiated by the threat actor.
 ```
 ~$ grep “Accepted password” /var/log/auth.log | grep “Attacker'sIP”
 ```
-**From Attacking Machine**
+**From Threat Actor's Machine**
 - Open Terminal
 - Initiate the Ncrack tool against target's SSH service, using a predefined password list.
 ```
 ~$ ncrack –v Target's IP -- user root –P /tmp/wordlists/passlist –p ssh
 ```
-**From Target Machine**
+**From Target's Machine**
 - Open Terminal
 - Start the denyhosts script
 ```
 ~$ sudo service denyhosts start
 ```
-**From Attacking Machine**
+**From Threat Actor's Machine**
 - Open Terminal
 - Attempt to SSH to the target's system with the credentials gained from the Ncrack tool
 ```
@@ -55,10 +55,10 @@
 ```
 - Noticing the output, we can determine that the IP address is being blocked since the remote host is still listening on port 22
 
-**From Target Machine**
+**From Target's Machine**
 - Open Terminal
 - View the contents of the **hosts.denyfile**
-- Notice that the file is populated with the IPaddress belonging to the attacking system. 
+- Notice that the file is populated with the IPaddress belonging to the Threat Actor's system. 
 - It can be concluded that the denyhosts service has blocked Attacker’s IP address based on its attempt to force itself an SSH connection with the remote system.
 - Analyze the auth.log file for failed password attempts (case sensitive).
 ```
@@ -66,9 +66,9 @@
 ```
 - Notice the failed attempts created by the Ncrack application.
 
-### **Unblock Kali**
+### **Unblock Threat Actor's IP**
 
-**From Target Machine**
+**From Target's Machine**
 - To remove the blocked entry from the hosts.deny file, temporarily stop the rsyslogservice.
 ```
 ~$ sudo service rsyslog stop
@@ -154,7 +154,7 @@
 ```
 - Open another new terminal window.
 - Position both terminal windows so that both can be viewed at the same time.
-- Type the command below to mimic an HDD attack if an attacker had access to a physical machine within a network infrastructure.
+- Type the command below to mimic an HDD attack if a threat actor had access to a physical machine within a network infrastructure.
 ```
 ~$ sudo dd if=/dev/zero of=/dev/sda
 ```
