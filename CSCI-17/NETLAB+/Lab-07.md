@@ -90,7 +90,7 @@
 
 ### **Exploiting sudo with vi Editor**
 
-- Escalate to root privileges.**
+- Escalate to root privileges.
 ```
 ~$ sudo su
 ```
@@ -105,7 +105,7 @@
 - The input is recorded at the bottom of the **vi** editor.
 - Press Enter.
 - After the command is entered, you’ll be presented with the ‘ # ‘ prompt.
-- Type ***id*** followed by pressing the Enter key.
+- Type *id* followed by pressing the Enter key.
 - This command will print the current user
 - Notice that you are running a shell as root.
 - Type whoami to confirm you are the user root. Press Enter.
@@ -120,7 +120,8 @@
 ~$ grep sudo /var/log/auth.log | tail -l
 ```
 ## **Demonstrate DOS Attack**
-### Warning: Do not attempt this section of the lab on a personal computer.  It will cause serious harm to a machine, resulting in an inoperable state.
+### **Warning:** Do not attempt this section of the lab on a personal computer.  It will cause serious harm to a machine, resulting in an inoperable state.
+- ### **Be sure to clone your Virtual Machine before continuing.**
 
 ### **From Virtual Machine**
 - Monitor live CPU and memory usage within a terminal window. Enter:
@@ -140,3 +141,27 @@
 - Because the system is overwhelmed, the **htop** application may be slow and unresponsive.
 - Keep an eye on the Uptime value and see whether it is incrementing. If it is not, it is unresponsive. You may proceed to the next step.
 - When you are finished analyzing the “fork bomb” operation, shutdown the Virtual Machine.
+
+## **Destroying the HDD with dd**
+### **Warning:**  Do not attempt this section of the lab on a personal computer. It will cause serious harm to a machine resulting, in an inoperable state. 
+- ### **Be sure to clone your Virtual Machine before continuing.**
+
+### **From Virtual Machine**
+- Open a terminal
+- Run **iotop** to actively monitor disk I/O activity
+```
+~$ sudo iotop
+```
+- Open another new terminal window.
+- Position both terminal windows so that both can be viewed at the same time.
+- Type the command below to mimic an HDD attack if an attacker had access to a physical machine within a network infrastructure.
+```
+~$ sudo dd if=/dev/zero of=/dev/sda
+```
+- Notice on the Terminal running **iotop**, a heavy I/O activity is taking place.
+- Wait 1-3 minutes until the system crashes.
+- Power down VM
+- Power on VM
+- Wait 1-3 minutes until a message appears showing that no operating system is available.
+- The **dd** command has been successful in such a way that the damage has been done.
+- The command process kept writing random zeros on the partition *sda* to the point where it can no longer function because of the overwritten files.
