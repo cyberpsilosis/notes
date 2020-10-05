@@ -5,6 +5,6 @@
 **Demostrate Ncrack Against denyhosts**
 - Open Terminal
 - Verify that the SSH service is running
-
-    ~$ ps -eaf | grep HOSTS_DENY etc/denyhosts.conf | grep -v grep | grep 
-
+****
+    ~$ ps -eaf | grep HOSTS_DENY etc/denyhosts.conf | grep -v grep | grep sshd
+****
