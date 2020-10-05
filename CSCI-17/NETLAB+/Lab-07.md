@@ -23,3 +23,13 @@
 ```
 ~$ ssh name@ipaddress "uptime"
 ```
+**From Target Machine**
+- Open Terminal
+- Grep the log entry recorded from the SSH connection that was initiated by the attacker.
+```
+~$ grep “Accepted password” /var/log/auth.log | grep “Attacker's IP”
+```
+**From Attacking Machine**
+- Open Terminal
+- Initiate the Ncrack tool against Ubuntu’s SSH service, using a predefined password list.
+```
