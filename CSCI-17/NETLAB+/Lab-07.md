@@ -9,6 +9,6 @@
 ~$ ps -eaf | grep HOSTS_DENY etc/denyhosts.conf | grep -v grep | grep sshd
 ```
 - Verify that the service **denyhosts** is not running
-****
-    ~$ service denyhosts status
-
+```
+~$ service denyhosts status
+```
