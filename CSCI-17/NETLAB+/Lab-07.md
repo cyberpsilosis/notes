@@ -2,7 +2,7 @@
 
 ## **Bruteforcing SSH**
 
-### **Demostrate Ncrack Against denyhosts**
+### **Demonstrate Using Ncrack Against denyhosts**
 
 **From Target Machine**
 - Open Terminal
