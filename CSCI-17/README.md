@@ -5,4 +5,4 @@
 ## **All Things Hacking!**
 
 - [Bandit-Creds.txt](./War-Games/bandit-series/ssh-credentials.md)
-- [NETLABS+](./NETLABS+/)
+- [NETLABS+](/CSCI-17/NETLAB+)
