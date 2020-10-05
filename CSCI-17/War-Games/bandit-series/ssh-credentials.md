@@ -51,9 +51,9 @@ Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 - not executable
 
 **Commands Used:** ls, cd, find
-
+```
     ~$ find / -size +50M -iname "filename"
-
+```
 - Filter by size. 
 - This will return results that are 50 megabytes or larger.
 - You can use + or - to search for greater or lesser sizes. 
@@ -70,9 +70,9 @@ Password: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 - 33 bytes in size
 
 **Commands Used:** man find grep cat
-
-    ~$ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission
-
+```
+~$ find / -user bandit7 -group bandit6 -size 33c 2>&1 | grep -F -v Permission
+```
 - Use man to learn the command options
 
 ## **Level 8**
