@@ -1,6 +1,6 @@
 # Organized Note Taking 1.0
 
-### **Welcome! Here's where all of my notes/homework will reside as I attempt to become somewhat organized.**
+### **Welcome! Here's where my notes and homework will reside as I attempt to become somewhat organized.**
 
 ## [**Security+**](./CSCI-17)
 ## [**A+**](./CSCI-49)
