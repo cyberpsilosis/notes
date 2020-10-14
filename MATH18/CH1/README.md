@@ -6,5 +6,5 @@
 - ## [***HW4***](/MATH18/CH1/HW4)
 - ## [***HW5***](/MATH18/CH1/HW5)<br>
 
-## [**Notes**](/MATH18/CH1/notes/)
-## [**Exam 1**](/MATH18/CH1/exam1/)
+## [**Notes**](/MATH18/CH1/CH1notes)
+## [**Exam 1**](/MATH18/CH1/CH1exam)
