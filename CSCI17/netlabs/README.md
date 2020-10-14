@@ -1,3 +1,3 @@
 # ![](./images/NDG.png)
 
-- ## [***Lab 07***](/CSCI-17/NETLAB+/Lab-07.md)
+- ## [***Lab 07***](/CSCI17/netlabs/Lab-07.md)
