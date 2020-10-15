@@ -2,7 +2,7 @@
 ## [**Notes**](/MATH18/CH3/CH3notes/teacher/CH7CLT2.md)
 ## [**Assignment**](../HW13/HWCLT2.pdf)
 
-1. ## **94**
+## **94**
     
     a. 
 
