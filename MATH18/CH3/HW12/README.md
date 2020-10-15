@@ -1,5 +1,5 @@
 # **Home Work 12**
-## [**Notes**](../../CH3/CH3notes/teacher/CH7CLT1.pdf)
+## [**Notes**](../../CH3/CH3notes/)
 
 ### [***Answers***](/MATH18/CH3/HW12/answers.md)<br>
 
