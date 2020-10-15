@@ -1,4 +1,4 @@
 # **Chapter 3 Notes**
 
-## [**Personal notes**](.\personal)
-## [**Teacher's notes**](.\teacher)
+## [**Personal notes**](\MATH18\CH3\CH3notes\personal)
+## [**Teacher's notes**](\MATH18\CH3\CH3notes\teacher)
