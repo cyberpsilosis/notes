@@ -6,5 +6,6 @@
 ## [**CH3**](/MATH18/CH3)
 
 ## [**Textbooks**](/MATH18/textbooks)
+## [**Emulator**](/MATH18/emulator)
 
 ![](./images/stats.jpg)
