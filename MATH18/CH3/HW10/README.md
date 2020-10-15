@@ -58,7 +58,7 @@
 
     b. X = 0 1 2 3 4 5 6 7 8 9 10 11
 
-    d. P(X ≧ 8) = .0043
+    d. P(X ≥ 8) = .0043
 
     e. It is more likely that none will have adequate earthquake supplies than all of them, because 30% is closer to 0% than 100%.
 
