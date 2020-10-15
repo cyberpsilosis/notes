@@ -5,7 +5,7 @@
 
 a. Write out a table for the population distribution.  Draw a sketch of what it looks like.<br>
 ![](/notes/MATH18/CH3/CH3notes/teacher/images/ch7clt2pr1.png =205x)
-<img src="/notes/MATH18/CH3/CH3notes/teacher/images/ch7clt2pr1.png" width="205" />
+<img src="https://github.com/cyberpsilosis/notes/blob/master/MATH18/CH3/CH3notes/teacher/images/ch7clt2pr1.png" width="205" />
 
 
 b. What is more likely to happen 2 successes or 8 successes?
