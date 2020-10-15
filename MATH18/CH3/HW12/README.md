@@ -1,6 +1,6 @@
 # **Home Work 12**
 ## [**Notes**](/MATH18/CH3/CH3notes/teacher/CH7CLT1.pdf)
-
+## [**Assignment**](/MATH18/CH3/HW12/HWCLT.md)
 ### [***Answers***](/MATH18/CH3/HW12/answers.md)<br>
 
 ## **Central Limit Theorem Homework (adapted from Kozak)**
