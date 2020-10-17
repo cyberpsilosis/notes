@@ -4,12 +4,12 @@ echo "Syncing Notes"
 git pull
 
 echo ""
-echo "Staging Changed Files"
+echo "Staging changed files"
 git add .
 
 echo ""
-echo "Committing Staged Files"
-git commit -m "Sync Notes -$(date)"
+echo "Committing staged files"
+git commit -m "Sync Notes - $(date)"
 
 echo ""
 echo "Pushing changes to GitHub"
