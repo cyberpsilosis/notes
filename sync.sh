@@ -16,4 +16,4 @@ echo "Pushing changes to GitHub"
 git push
 
 echo ""
-echo "Finished Syncing
+echo "Finished Syncing"
