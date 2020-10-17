@@ -17,3 +17,5 @@ git push
 
 echo ""
 echo "Finished Syncing"
+
+exit
