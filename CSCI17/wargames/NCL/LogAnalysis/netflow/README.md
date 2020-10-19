@@ -1,12 +1,6 @@
 
 
-
-
-
-
-
-
-**$cat netflowNOport.txt | awk '{print $6}' |  sort -n | uniq -c | sort -rn | head -n 15**
+**$cat netflowNOport.txt | awk '{print $6}' | sort -n | uniq -c | sort -rn | head -n 15**
 ```
    1784 102.85.184.239
     820 233.186.34.242
