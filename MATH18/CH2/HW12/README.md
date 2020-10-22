@@ -1,7 +1,7 @@
 # **Home Work 12**
-## [**Notes**](/MATH18/CH3/CH3notes/teacher/CH7CLT1.pdf)
-## [**Assignment**](/MATH18/CH3/HW12/HWCLT.md)
-### [***Answers***](/MATH18/CH3/HW12/answers.md)<br>
+## [**Notes**](/MATH18/CH2/CH2notes/teacher/CH7CLT1.pdf)
+## [**Assignment**](/MATH18/CH2/HW12/HWCLT.md)
+### [***Answers***](/MATH18/CH2/HW12/answers.md)<br>
 
 ## **Problem 1**
     

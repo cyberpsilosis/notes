@@ -1,7 +1,7 @@
 # **Home Work 11**
 ## **z distributions**
 
-[**Notes: Chapter 6 normal z score.pdf**](../../CH3/CH3notes/teacher/Chapter6NormalZscore.pdf)
+[**Notes: Chapter 6 normal z score.pdf**](../../CH2/CH2notes/teacher/Chapter6NormalZscore.pdf)
 
 [**From the textbook OpenStax - IntroductoryStatistics**](../../textbooks/OSIS.pdf)
 ```
