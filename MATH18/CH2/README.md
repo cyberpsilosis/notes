@@ -6,6 +6,6 @@
 - ## [***HW10***](/MATH18/CH2/HW10)
 - ## [***HW11***](/MATH18/CH2/HW11)
 - ## [***HW12***](/MATH18/CH2/HW12)
-- ## [***HW13***](/MATH18/CH2/HW13)<br>
+- ## [***HW13***](/MATH18/CH2/HW13)
 - 
 ## [**Notes**](/MATH18/CH2/CH2notes)
