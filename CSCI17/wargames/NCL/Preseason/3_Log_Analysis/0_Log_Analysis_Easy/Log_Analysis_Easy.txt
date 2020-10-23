@@ -1,0 +1,168 @@
+Log Analysis(290 points)
+
+	Netflow(Easy)(110 points)
+
+		Cyber Command: 
+
+		The NetFlow log was collected by an Internet Service Provider (ISP) in the city, analyze the log and give some feedback.
+
+		Q1 - 10 points
+		How many total NetFlow records are there?
+			
+			3692
+			
+				snip2.PNG
+						
+		Q2 - 25 points
+		How many unique client IP addresses are there?
+			
+			204
+			
+				grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" netflow.txt | sort | uniq -c		
+			
+		Q3 - 25 points
+		What is the most frequent client IP address?
+			
+			102.85.184.239
+			
+				grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" netflow.txt | sort | uniq -c
+				
+		Q4 - 25 points
+		What IP address appeared exactly 10 times?
+			
+			220.165.13.183
+				
+				grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" netflow.txt | sort | uniq -c
+			
+		Q5 - 10 points
+		What does the S in the flags column stand for?
+			
+			Syn
+						
+		Q6 - 15 points
+		How many total S flags were there?
+		
+			3680
+			
+				grep -o "S" netflow.txt | sort | uniq -c
+				
+	VSFTPD(Easy)(95 points)
+	
+		Cyber Command: Analyze a VSFTPD log file that we obtained.
+
+		Q1 - 5 points
+		What IP address did "ftpuser" first log in from?
+			
+			10.0.0.123
+			
+				line 1
+			
+		Q2 - 5 points
+		What is the first directory that ftpuser created?
+			
+			/home/ftpuser/TreeSizeFree
+			
+				line 8
+			
+		Q3 - 5 points
+		What is the last directory that ftpuser created?
+			
+			/home/ftpuser/110D300S
+			
+				grep 'MKDIR' vsftpd.log
+				line 2553
+			
+		Q4 - 5 points
+		What file extension was the most commonly used by ftpuser?
+			
+			JPG	
+			
+				awk '{ print $13 }' vsftpd.log > vsftpd2.log
+				sed 's/.*[.] *//' vsftpd2.log | sort | uniq -c
+						
+		Q5 - 10 points
+		What is the username of the other user in this log?
+			
+			jimmy
+			
+				awk '{ print $8 }' vsftpd.log | sort | uniq -c
+			
+		Q6 - 10 points
+		What is the IP address did this other user log in from?
+			
+			10.0.0.214
+				
+				grep 'jimmy' vsftpd.log
+			
+		Q7 - 10 points
+		How many total bytes did this other user upload?
+			
+			105750628
+			
+				grep 'jimmy' vsftpd.log | grep 'UPLOAD' | awk '{ print $15 }'
+			
+		Q8 - 10 points
+		How many total bytes did ftpuser upload?
+			
+			13980839165
+			
+				I used a spreadsheet to sort
+			
+		Q9 - 10 points
+		How many total bytes did ftpuser download?
+			
+			6008032
+			
+				I used a spreadsheet to sort
+			
+		Q10 - 25 points
+		Identify the suspicious (login with no activity) login IP address in this log.
+		
+			10.3.0.6
+				
+				I used a spreadsheet to sort
+				
+	 Scanner(Easy)(85 points)
+
+		Cyber Command: Inspect this malware scan log file from an IDS on the police network.
+		
+		Q1 - 10 points
+		How many files did the IDS process?
+			
+			161
+			
+				Open CSV in spreadsheet
+			
+		Q2 - 10 points
+		How many days does this log span (inclusive, round to nearest whole number)?
+			
+			14
+			
+				Open CSV in spreadsheet
+			
+		Q3 - 10 points
+		What is the URL (without any query parameters) of the file that the IDS rejected?
+			http://r8---sn-a8au-p5qs.gvt1.com/edgedl/release2/zeirnkcni5cljoiivcv2uemx4yu6v5yn3bc8pdpb4doovg7qh6rilan8gw6cegeekb4caghglper5fmo9ena5eixsrcehhvchgu/54.0.2840.99_54.0.2840.71_chrome_updater.exe
+			
+				Open CSV in spreadsheet
+			
+		Q4 - 15 points
+		How many zip files did the IDS process?
+			
+			108
+				
+				Open CSV in spreadsheet
+			
+		Q5 - 20 points
+		How many unique server IP addresses were downloads made from?
+			
+			33
+			
+				Open CSV in spreadsheet
+			
+		Q6 - 20 points
+		What is the URL of the largest file downloaded?
+		
+			http://download-cdn.gfe.nvidia.com/packages/DAO/production/21376336/00009766/0.dat
+			
+				Open CSV in spreadsheet

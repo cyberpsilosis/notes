@@ -1,0 +1,27 @@
+Log Analysis(145 points)
+
+	Payments (Hard)(145 points)
+		
+		Cyber Command: A payment transaction log has been compromised in a data breach. Find out what information it contains.
+		
+		Q1 - 35 points
+		How many transactions are contained in the log?
+			
+			192
+			
+				Saved log as csv and opened in Sheets
+			
+		Q2 - 50 points
+		What was the largest purchase made in the log?
+			
+			998.60
+				
+				N=8; grep -roP ".USD.{0,$N}" payments.log > payments2.log
+				Used notepad++ to remove unneccessary characters and sorted in Sheets. 
+				
+		Q3 - 60 points
+		Which state made the most number of purchases?
+		
+			MA
+			
+				N=2; grep -roP ".StateOrProvince>.{0,$N}" payments.log | sort | uniq -c

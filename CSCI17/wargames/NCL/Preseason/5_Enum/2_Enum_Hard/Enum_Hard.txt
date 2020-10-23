@@ -1,0 +1,11 @@
+Enumeration and Exploitation(200 points)
+	
+	Flag Guessing (Hard)(200 points)
+		
+		Cyber Command: Take a shot at guessing the flag hidden in this binary.
+
+		Use TID bd1e1fb09d98f566e35a91076eb5b9eb to access the binary
+	
+		Cyber Command: What's the flag value? (200 pts)
+			
+			[incomplete]
