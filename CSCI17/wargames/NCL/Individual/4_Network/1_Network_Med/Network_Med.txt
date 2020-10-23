@@ -1,0 +1,37 @@
+Network Analysis(100 points)
+
+	Packet Dissection (Medium)(100 points)
+		
+		Cyber Command: Dissect a IP packet header to understand how the protocol works.
+
+		Q1 - 20 points
+		What is the header checksum in hex?
+			
+			4F93
+			
+				0100111110010011
+				https://www.binaryhexconverter.com/binary-to-hex-converter
+			
+		Q2 - 20 points
+		What is the TTL of the packet? (in decimal)
+			
+			64
+			
+				01000000 
+				https://www.rapidtables.com/convert/number/binary-to-decimal.html
+			
+		Q3 - 30 points
+		What is the source IP address?
+			
+			192.168.128.128
+
+				11000000.10101000.10000000.10000000
+				https://www.browserling.com/tools/bin-to-ip
+				
+		Q4 - 30 points
+		What is the destination IP address?
+		
+			159.203.96.154
+
+				10011111.11001011.01100000.10011010
+				https://www.browserling.com/tools/bin-to-ip

@@ -1,0 +1,29 @@
+Open Source Intelligence
+
+	Flag Location (Easy)(50 points)
+	
+		Cyber Command: Someone from the Cyber Skyline team seems to have planted a flag somewhere.
+	
+		Cyber Command: What is the street address where the photo was taken? (20 pts)
+		
+			690 Park Ave
+			
+				https://twitter.com/Cyber_Skyline/status/1314218961186304000/photo/1
+		
+		Cyber Command: Correct! Good job so far.
+		
+		Cyber Command: What is the hidden flag? (15 pts)
+		
+			SKY-ITLY-1946
+
+				https://twitter.com/Cyber_Skyline/status/1317167698443444224/photo/1
+		
+		Cyber Command: Correct! Good job so far.
+		
+		Cyber Command: What is the URL of the post containing this photo & message? (15 pts)
+
+				https://twitter.com/Cyber_Skyline/status/1317167698443444224/photo/1
+
+		Cyber Command: Correct! Good job so far.
+
+		You are done. Thank you for completing this mission. Onto the next challenge!

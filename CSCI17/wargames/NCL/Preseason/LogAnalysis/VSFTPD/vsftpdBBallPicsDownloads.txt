@@ -1,0 +1,16 @@
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0146.JPG", 262144 bytes, 519.70Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0148.JPG", 70080 bytes, 421.23Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0223.JPG", 70080 bytes, 862.39Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0245.JPG", 81760 bytes, 616.41Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0299.JPG", 59860 bytes, 277.80Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0300.JPG", 67160 bytes, 966.10Kbyte/sec
+Sat Mar 19 18:29:26 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0372.JPG", 102200 bytes, 3633.62Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0373.JPG", 77380 bytes, 2532.30Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0378.JPG", 71540 bytes, 2169.20Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0696.JPG", 59860 bytes, 8638.54Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0739.JPG", 81760 bytes, 7644.94Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0772.JPG", 81192 bytes, 2674.26Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/_DSC0894.JPG", 90520 bytes, 4447.05Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/DSC_8227.JPG", 83220 bytes, 26386.21Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/DSC_8228.JPG", 75920 bytes, 30472.92Kbyte/sec
+Sat Mar 19 18:29:27 2016 [pid 2095] [ftpuser] OK DOWNLOAD: Client "10.0.0.123", "/home/jimmy/BBall Pics/DSC_8229.JPG", 65700 bytes, 33364.62Kbyte/sec

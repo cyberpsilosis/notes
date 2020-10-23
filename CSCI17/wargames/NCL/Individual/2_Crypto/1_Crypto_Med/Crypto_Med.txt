@@ -1,0 +1,45 @@
+Cryptography(95 points)
+
+	Steg 1 (Medium)(45 points)
+
+		Cyber Command: We have come across this image which we think may contain a hidden message. Try to make some sense out of it.
+
+		Cyber Command: What encryption algorithm was used to hide an image in another cover image? (10 pts)
+
+			BlindHide
+
+				D.I.I.T.
+				
+		Cyber Command: Correct! Good job so far.
+		
+		Cyber Command: What language is the hidden message written in? (15 pts)
+		
+			Tantalog
+			
+				goole'd "strange alphabets"
+				
+		Cyber Command: Correct! Good job so far.
+
+		Cyber Command: What is the English message uncovered after translating the strange language? (20 pts)
+		
+			EXPERIMENTCOMPLETE
+			
+				https://disney.fandom.com/wiki/Tantalog_language
+				
+	Steg 2(Medium)(50 points)
+
+		Cyber Command: We have come across this image which we think may contain a hidden flag. Try to make some sense out of it.
+
+		Cyber Command: How many different images (including the cover image) can be found in Steg 2.jpg? (25 pts)
+			
+			5
+			
+				binwalk Steg\ 2.jpg
+		
+		Cyber Command: Correct! Good job so far.
+ 
+		Cyber Command: What is the hidden flag in the image? (25 pts)
+		
+			SKY-ELXI-4913
+		
+				binwalk -D='.*' steg2.jpg	
