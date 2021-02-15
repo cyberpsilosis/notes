@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/Desktop/projects/notes/
+
 echo "Syncing Notes"
 git pull
 
